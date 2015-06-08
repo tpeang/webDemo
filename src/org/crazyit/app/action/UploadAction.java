@@ -53,7 +53,7 @@ public class UploadAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println(getSavePath());
+		//System.out.println(getSavePath());
 		FileOutputStream fos = new FileOutputStream(getSavePath()+"\\"+getUploadFileName());
 	 
 		FileInputStream fis = new FileInputStream(getUpload());
